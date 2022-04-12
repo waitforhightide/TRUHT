@@ -1,0 +1,16 @@
+[build]
+command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || true && git clone -b dev https://github.com/ppeetteerrs/obsidian-zola.git __site && __site/run.sh"
+publish = "public"
+
+[build.environment]
+GANALYTICS = "G-GXRDN10PHJ"
+LANDING_BUTTON = "Explore"
+LANDING_DESCRIPTION = "This is my personal knowledge management system. Concepts and snippets of knowledge are organized in an (unstructure) inter-linked knowledge graph."
+LANDING_PAGE = "index"
+LANDING_TITLE = "Welcome!"
+PYTHON_VERSION = "3.8"
+REPO_URL = "https://github.com/waitforhightide/TRUHT"
+SITE_TITLE = "The Real Unholy Wiki"
+SITE_URL = "https://waitforhightide.netlify.app/"
+TIMEZONE = "USA/Chicago"
+ZOLA_VERSION = "0.15.2"
